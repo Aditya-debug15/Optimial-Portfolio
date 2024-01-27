@@ -28,8 +28,7 @@ n_days = 100
 
 # Generate random returns
 tempReturns = []
-# filePaths = ["adani_ports.csv", "asianPaints.csv", "axis_bank.csv"]
-filePaths = ["asianPaints.csv", "axis_bank.csv"]
+filePaths = ["ASIANPAINT.csv", "AXISBANK.csv"]
 for i in filePaths:
     tempReturns.append(getStockData(i))
 
